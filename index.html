@@ -1,0 +1,284 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>CChess - The Game</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="icon" type="image/png" href="Images/logo_cchess.png">
+	</head>
+	<body class="is-preload">
+
+		<!-- Barre navigation -->
+			<nav id="nav">
+				<ul class="container">
+					<li><a href="#top">Accueil</a></li>
+					<li><a href="#presentation">Présentation</a></li>
+					<li><a href="#soutenances">Soutenances</a></li>
+					<li><a href="#material">Matériel</a></li>
+					<li><a id="download_2" href="#logs">Historique</a></li>
+					<li><a id="download_2" href="#download">Téléchargement</a></li>
+				</ul>
+			</nav>
+
+		<!-- Ecran Accueil -->
+			<article id="top" class="wrapper style1">
+				<div class="container">
+					<div class="row">
+						<div class="col-4 col-5-large col-12-medium">
+							<span class="image fit"><img src="Images/logo_cchess.png" alt="" /></span>
+						</div>
+						<div class="col-8 col-7-large col-12-medium">
+							<h1>CChess.<strong>Written in C</strong>.</h1>
+							</header>
+							<p>Play, as you have never done before.</p>
+							<a href="#presentation" class="button large scrolly">Présentation !</a>
+						</div>
+					</div>
+				</div>
+			</article>
+
+		<!-- Ecran Présentation -->
+			<article id="presentation" class="wrapper style2">
+				<div class="container">
+					<header>
+						<h2>Présentation générale</h2>
+						<p>CChess est un jeu développé par des étudiants de l'EPITA de Toulouse.</p>
+					</header>
+					<div class="row aln-center">
+						<div class="col-4 col-6-medium col-12-small">
+							<section class="box style1">
+								<h3>Un jeu écrit en C !</h3>
+								<p>CChess est un jeu créé par des étudiants de l'EPITA dans le cadre d'un projet de l'école. Un des critères de ce projet était donc d'être écrit en C.</p>
+							</section>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<section class="box style1">
+								<h3>Une interface réussie !</h3>
+								<p>En utilisant des logiciels tels que InkScape, Glade, et bien d'autres, nous avons réussi concevoir une interface dotée d'une qualité hors du commun !</p>
+							</section>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<section class="box style1">
+								<h3>Un jeu légendaire !</h3>
+								<p>La possibilité de créer une réplique du jeu de plateau légendaire a été pour nous une véritable fierté, et ce, durant la totalité le développement !</p>
+							</section>
+						</div>
+					</div>
+					<footer>
+						<p>Laissez-nous à présent vous faire découvrir les captures d'écran de notre projet...!</p>
+						<a href="#screens" class="button large scrolly">Captures d'écran</a>
+					</footer>
+				</div>
+			</article>
+
+			
+			<!-- Ecran Materiel et services utilisés -->
+			<article id="screens" class="wrapper style3">
+				<div class="container">
+					<header>
+						<h2>Captures d'écran</h2>
+					</header>
+					<div class="row">
+						<div class="col-4 col-6-medium col-12-small">
+								<article class="box style2">
+									<a href="#" class="image featured"><img src="Images/Photo_3.png" alt="" /></a>
+									<h3>Echiquier initial</h3>
+								</article>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<a href="#" class="image featured"><img src="Images/Photo_1.png" alt="" /></a>
+								<h3>Démarrage de la partie</h3>
+							</article>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<a href="#" class="image featured"><img src="Images/Photo_2.png" alt="" /></a>
+								<h3>Partie en cours</h3>
+							</article>
+						</div>
+					</div>
+					<footer>
+						<p>Laissez-nous à présent vous faire découvrir le déroulé et les objectifs de notre projet...!</p>
+						<a href="#soutenances" class="button large scrolly">Déroulé et Objectifs</a>
+					</footer>
+				</div>
+			</article>
+
+
+		<!-- Ecran Présentation -->
+		<article id="soutenances" class="wrapper style2">
+			<div class="container">
+				<header>
+					<h2>Déroulé et objectifs des soutenances</h2>
+					<p>CChess est un jeu développé par des étudiants de l'EPITA de Toulouse.</p>
+				</header>
+				<div class="row aln-center">
+					<div class="col-4 col-6-medium col-12-small" id="link_soutenance" onclick="window.location.href='rapport_soutenance_1.pdf'">
+						<section class="box style1">
+							<h3>Soutenance 1</h3>
+							<p>Le jeu est jouable sur un Terminal. L'interface graphique est en cours de création. Il est possible de jouer sur à un contre un.</p>
+						</section>
+					</div>
+					<div class="col-4 col-6-medium col-12-small" id="link_soutenance" onclick="window.location.href='rapport_soutenance_2.pdf'">
+						<section class="box style1">
+							<h3>Soutenance 2</h3>
+							<p>Le jeu possède une interface graphique. Des captures d'écran sont visibles ci-dessous. Le roque et les prises particulières sont en cours de création.</p>
+						</section>
+					</div>
+					<div class="col-4 col-6-medium col-12-small" id="link_soutenance" onclick="window.location.href='#Pas_Si_Vite_!'">
+						<section class="box style1">
+							<h3>Soutenance 3</h3>
+							<p>Le jeu est maintenant terminé ! Un éxécutable est maintenant disponible en cliquant sur le bouton de téléchargement situé en bas de page.</p>
+						</section>
+					</div>
+				</div>
+				<footer>
+					<p>Laissez-nous maintenant vous faire découvrir les différents services et applications que nous avons utilisé...!</p>
+					<a href="#material" class="button large scrolly">Matériel et Services</a>
+				</footer>
+			</div>
+		</article>
+		<!-- Ecran Materiel et services utilisés -->
+		<article id="material" class="wrapper style3">
+			<div class="container">
+				<header>
+					<h2>Matériel et services utilisés</h2>
+					<p>Voici les différents services et applications que nous avons pu utiliser durant le développement de notre jeu.</p>
+				</header>
+				<div class="row">
+					<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+							<a href="#" class="image featured"><img src="Images/nextcloud-logo.png" alt="" /></a>
+							<h3><a href="#">Nextcloud</a></h3>
+							<p>A l'aide d'un serveur Nextcloud hébergé dans l'un de nos appartements, nous avons pu nous partager des fichiers à notre guise !</p>
+							</article>
+					</div>
+					<div class="col-4 col-6-medium col-12-small">
+						<article class="box style2">
+							<a href="#" class="image featured"><img src="Images/git.png" alt="" /></a>
+							<h3><a href="#">GitHub</a></h3>
+							<p>Notre projet doit être basé dans un repo sur GitHub. Notre école pouvait évaluer notre travail en passant par ce gestionnaire de versions.</p>
+						</article>
+					</div>
+					<div class="col-4 col-6-medium col-12-small">
+						<article class="box style2">
+							<a href="#" class="image featured"><img src="Images/discord-logo.png" alt="" /></a>
+							<h3><a href="#">Discord</a></h3>
+							<p>Initialement, nous avions prévu de passer par Talk (Nextcloud). Malheureusement, une trop grande instabilité a eu raison de ce logiciel.</p>
+						</article>
+					</div>
+					<div class="col-4 col-6-medium col-12-small">
+						<article class="box style2">
+							<a href="#" class="image featured"><img src="Images/glade-logo.png" alt="" /></a>
+							<h3><a href="#">Glade</a></h3>
+							<p>Glade est le logiciel qui nous a permis de concevoir l'interface graphique de notre jeu.</p>
+						</article>
+					</div>
+					<div class="col-4 col-6-medium col-12-small">
+						<article class="box style2">
+							<a href="#" class="image featured"><img src="Images/gimp-logo.png" alt="" /></a>
+							<h3><a href="#">GIMP</a></h3>
+							<p>Gimp est un logiciel permettant l'édition d'images. Il nous a beaucoup servi pour le design des pièces.</p>
+						</article>
+					</div>
+					<div class="col-4 col-6-medium col-12-small">
+						<article class="box style2">
+							<a href="#" class="image featured"><img src="Images/inkscape-logo.png" alt="" /></a>
+							<h3><a href="#">InkScape</a></h3>
+							<p>InkScape nous a permis de tranformer des images matricielles, en images vectorielles.</p>
+						</article>
+					</div>
+				</div>
+				<footer>
+					<p>Laissez-nous maintenant vous faire découvrir les différents le déroulé des logs de développement...</p>
+					<a href="#logs" class="button large scrolly">Historique de développement</a>
+				</footer>
+			</div>
+		</article>
+<!-- Ecran Présentation -->
+<article id="logs" class="wrapper style2">
+	<div class="container">
+		<div class="row">
+			<div class="col-12 col8-large col-12-medium">
+				<h1>Historique de développement</h1>
+				</header>
+				<h3>m03j16a</h3><p>chess.c (main.c) </p>
+				<h3>m03j19a</h3><p>Piece_moving : Bishop, Rook and Queen</p>
+				<h3>m03j19b</h3><p>Piece_moving : Knight, Pawn, King</p>
+				<h3>m03j19c</h3><p>Merged Piece_moving</p>
+				<h3>m03j19d</h3><p>Check for check on board</p>
+				<h3>m03j19e</h3><p>cchess.glade (fenêtre de l'interface graphique)</p>
+				<h3>m03j19f</h3><p>mainUi.c (main.c pour l'UI)</p>
+				<h3>m03j19g</h3><p>chess.css (feuille de style pour l'UI)</p>
+				<h3>m03j20a</h3><p>Images of pieces SVG</p>
+				<h3>m03j20b</h3><p>Moving pieces on board</p>
+				<h3>m03j20c</h3><p>Fixed bishop rook and queen moves</p>
+				<h3>m03j20d</h3><p>Plateau de jeu ajouté à l'UI</p>
+				<h3>m03j20e</h3><p>uiFuncs.c fonction utiles pour l'interface graphique (set_piece, move_piece_ft, init_board)</p>
+				<h3>m03j20f</h3><p>Pièce ajoutées à l'UI</p>
+				<h3>m03j27a</h3><p>Bug Fix : Pawn a2</p>
+				<h3>m04j28a</h3><p>Added click UI detection </p>
+				<h3>m04j01a</h3><p>No more moves that can suicide king</p>
+				<h3>m04j06a</h3><p>Better Check function</p>
+				<h3>m04j06b</h3><p>Bishop Fix</p>
+				<h3>m04j16c</h3><p>Opti Bishop</p>
+				<h3>m04j11a</h3><p>round by round</p>
+				<h3>m04j11b</h3><p>Random Bot added</p>
+				<h3>m04j11c</h3><p>Random selection</p>
+				<h3>m04j12a</h3><p>new structure : linked list</p>
+				<h3>m04j13a</h3><p>min and max of a linked list</p>
+				<h3>m04j13b</h3><p>Knight bug fix</p>
+				<h3>m04j13c</h3><p>evaluation fix</p>
+				<h3>m04j14a</h3><p>Check mate implementation</p>
+				<h3>m04j14b</h3><p>Crap_arov never sacrifice</p>
+				<h3>m04j15a</h3><p>Crap_arov plays the immediate best move</p>
+				<h3>m04j15b</h3><p>Started linking UI and Game</p>
+				<h3>m04j17a</h3><p>Function to know what possible moves are available for a color</p>
+				<h3>m04j20a</h3><p>CmCTR Craparov on difficuty 3</p>
+				<h3>m04j21a</h3><p>HELP ME</p>
+				<h3>m04j22a</h3><p>First Craparov</p>
+				<h3>m04j23a</h3><p>Preludes of Craparov with depth</p>
+				<h3>m04j25a</h3><p>Craparov Minimax with depth</p>
+				<h3>m04j25b</h3><p>patch Craparov minimax</p>
+				<h3>m04j15c</h3><p>Craparov Minimax Opti</p>
+				<h3>m04j27a</h3><p>Add little roque</p>
+				<h3>m04j28a</h3><p>Promote and En passant</p>
+				<h3>m04j28b</h3><p>Game Ready for UI convertion</p>
+				<h3>m04j29a</h3><p>Merged UI and game engine</p>
+				<h3>m05j22a</h3><p>Castle implemented</p>
+				<h3>m05j22b</h3><p>Castle bug fix</p>
+				<h3>m05j22c</h3><p>1 pass 1</p>
+				<h3>m05j24a</h3><p>List move possible</p>
+				<h3>m05j27a</h3><p>fixed input display latency</p>
+				<h3>m05j27b</h3><p>Added loading indicator</p>
+				<h3>m05j27c</h3><p>Added last move indicator</p>
+				<h3>m05j27d</h3><p>ixed board refresh bugs</p>
+				<h3>m06j03a</h3><p>Added the pgn sanitization</p>
+				<h3>m06j15a</h3><p>Working pgn reader</p>
+				<h3>m06j15b</h3><p>Check mate choice fixed</p>
+				<h3>m06j15c</h3><p>Minimax leaf bug fixed</p>
+				<h3>m06j15d</h3><p>Minimax rock fixed</p>
+			</div>
+		</div>
+	</div>
+</article>
+		<!-- Ecran Téléchargement -->
+		<article id="download" class="wrapper style1">
+			<div class="container">
+				<div class="row">
+					<div class="col-4 col-5-large col-12-medium">
+						<span class="image fit"><img src="Images/logo_cchess.png" alt="" /></span>
+					</div>
+					<div class="col-8 col-7-large col-12-medium">
+						<h1>CChess.<strong>Written in C</strong>.</h1>
+						</header>
+						<p>Play, as you have never done before.</p>
+						<a href="#pas_encore_dispo_hehehe" class="button large scrolly">Télécharger !</a>
+					</div>
+				</div>
+			</div>
+		</article>
+	</body>
+</html>
